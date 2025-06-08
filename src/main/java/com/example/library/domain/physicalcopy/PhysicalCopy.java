@@ -26,5 +26,37 @@ public class PhysicalCopy {
         this.status = status;
     }
 
+    public UUID getId() {
+        return id;
+    }
+
+    public void setId(UUID id) {
+        this.id = id;
+    }
+
+    public UUID getBookId() {
+        return bookId;
+    }
+
+    public void setBookId(UUID bookId) {
+        this.bookId = bookId;
+    }
+
+    public CopyStatus getStatus() {
+        return status;
+    }
+
+    public void setStatus(CopyStatus status) {
+        this.status = status;
+    }
+
+    public UUID getCurrentOwner() {
+        return currentOwner;
+    }
+
+    public void setCurrentOwner(UUID currentOwner) {
+        this.currentOwner = currentOwner;
+    }
+
     // Getters and setters omitted for brevity
 }
